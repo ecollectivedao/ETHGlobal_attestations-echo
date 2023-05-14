@@ -1,0 +1,23 @@
+{
+  "name": "poap-ingestor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "^0.28.2",
+    "@types/node": "20.1.2",
+    "@urql/core": "^4.0.7",
+    "alchemy-sdk": "^2.8.3",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "node-fetch": "^3.3.1",
+    "typescript": "5.0.4"
+  }
+}
