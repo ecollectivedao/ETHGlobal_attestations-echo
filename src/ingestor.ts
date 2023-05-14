@@ -14,7 +14,7 @@ export async function ingestor(module: string, moduleVar: Number) {
 
     default:
       console.error(
-        "this protocol doens't have any ingestors implementation yet"
+        "This protocol doesn't have any ingestors implementation yet."
       );
       break;
   }
