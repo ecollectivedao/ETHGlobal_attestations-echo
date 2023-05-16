@@ -4,13 +4,13 @@ Framework to generate attestations based on cross-chain dataset.
 
 ## Description
 
-How can we trust attestations? Usually, you need either a trustable attester or a schema resolver, what we're trying to achieve with Ettestations Echo is to provide a re-playable and reliable attestation framework by making the attestation generation offline and letting it grow organically afterward.
+How can we trust attestations? Typically, you need to relly on trust from either a trustable attester or a schema resolver, what we're trying to achieve with Attestations Echo is to provide a re-playable and reliable attestation framework by making the attestation's generation offline and letting it grow naturally.
 
-We have 3 parts in our framework:
+Our framework is divided into 3 parts:
 
 - Ingestor module: consume any cross-chain data from subgraphs
-- Generator: will generate attestation linked to a particular schema which will be linked to a particular which has a lockable resolver contract
-- Verifier: anyone can use the verifier to get a list of on-chain attestation produced by the schema and reproduce the list locatlly to compare both sources and prove the code is working
+- Generator: will generate an attestation linked to a certain schema that is linked to a specific lockable resolver contract
+- Verifier: anyone can use the verifier to obtain a list of the on-chain attestations the schema created, and they can locally reproduce the list to compare the both sources and prove the code its veracity
 
 ## Resources
 
